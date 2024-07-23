@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iKONQUER - Music Producer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #fff;
+        }
+        header {
+            background-color: #222;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #111;
+        }
+        nav a {
+            color: #fff;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background-color: #444;
+        }
+        .section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .about, .payout, .preview, .contact {
+            background-color: #111;
+        }
+        .home {
+            background-color: #222;
+        }
+        .btn {
+            background-color: #e60000;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background-color: #ff1a1a;
+        }
+        .social-links {
+            margin-top: 10px;
+        }
+        .social-links a {
+            color: #fff;
+            margin: 0 10px;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        .social-links a:hover {
+            color: #e60000;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>iKONQUER</h1>
+        <p>Music Producer - Beats for Sale</p>
+        <div class="social-links">
+            <a href="https://twitter.com/ikonquer" target="_blank">Twitter</a>
+            <a href="https://instagram.com/ikonquer" target="_blank">Instagram</a>
+            <a href="https://facebook.com/ikonquer" target="_blank">Facebook</a>
+        </div>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Me</a>
+        <a href="#payout">Pay Out</a>
+        <a href="#preview">Beat Preview</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div id="home" class="section home">
+        <h2>Welcome to iKONQUER Beats</h2>
+        <p>Your source for high-quality beats. Let's make music together.</p>
+        <a href="#preview" class="btn">Preview Beats</a>
+    </div>
+    <div id="about" class="section about">
+        <h2>About Me</h2>
+        <p>Hi, I'm iKONQUER, a passionate music producer dedicated to creating and selling beats. My mission is to provide artists with the perfect soundtracks to bring their vision to life.</p>
+    </div>
+    <div id="payout" class="section payout">
+        <h2>Pay Out</h2>
+        <p>Securely purchase your favorite beats using our trusted payment methods. Contact us for more details on how to make a purchase.</p>
+    </div>
+    <div id="preview" class="section preview">
+        <h2>Beat Preview</h2>
+        <p>Check out some of my latest beats. Click the button below to listen.</p>
+        <a href="#contact" class="btn">Listen Now</a>
+    </div>
+    <div id="contact" class="section contact">
+        <h2>Contact / Customer Service</h2>
+        <p>Have questions or need assistance? Reach out to us at:</p>
+        <p>Email: support@ikonquerbeats.com</p>
+    </div>
+</body>
+</html>
